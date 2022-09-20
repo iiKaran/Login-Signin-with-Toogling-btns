@@ -1,0 +1,102 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.actionbtns {
+ background-color: royalblue;
+ border: 3px solid wheat;
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ /* padding: 4px; */
+ margin-bottom: 19px;
+ padding-bottom: 12px;
+ gap: 2px;
+ border: none;
+ outline: none;
+ position: relative;
+}
+
+.btn-log {
+ font-size: 1em;
+ font-weight: 400;
+ width: 50%;
+ border-radius: 50px;
+ padding: 3px;
+ cursor: pointer;
+ outline: none;
+
+}
+
+.mov-btn {
+ position: absolute;
+ background-color: royalblue;
+ color: #fff;
+ /* font-weight: 800; */
+ transition: all .8s ease-in-out;
+ /* display: none; */
+}
+
+.moveright {
+ transform: translateX(100%);
+}
+
+.wrapper {
+ width: 100vw;
+ height: 100vh;
+ border: 2px solid red;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: royalblue;
+}
+
+.container {
+ min-height: 400px;
+ width: 300px;
+ display: flex;
+ flex-direction: column;
+ background-color: white;
+ justify-content: center;
+ align-items: center;
+
+}
+
+form {
+ margin-top: 13px;
+
+ display: flex;
+ flex-direction: column;
+ gap: 12px;
+ width: 90%;
+ margin: auto;
+ display: none;
+}
+
+form input,
+form button {
+ font-size: 0.7em;
+ padding: 12px;
+ border-radius: 9px;
+
+}
+
+.login {
+ display: flex;
+}
+
+.signup {
+ display: flex;
+}
+
+.filled-btn {
+ cursor: pointer;
+ transition: all .3s;
+}
+
+.filled-btn:hover {
+ background-color: royalblue;
+ color: #fff;
+}
